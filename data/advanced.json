@@ -1,22 +1,102 @@
 [
 	{
-		"displayText": "@snippet1",
+		"displayText": "snippet1",
 		"snippet": "Start typing to replace ${1:this text}.",
 		"description": "A simple snippet."
 	},
 	{
-		"displayText": "@snippet2",
+		"displayText": "snippet2",
 		"snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
 		"description": "Another snippet."
 	},
 	{
-		"displayText": "@snippet3",
+		"displayText": "snippet3",
 		"snippet": "Start typing to replace ${1:multiple} ${1:text} ${1:simultaneously}. Then hit tab to ${2:do} ${2:it} ${2:again}.",
 		"description": "Yet another snippet."
 	},
 	{
-		"displayText": "@snippet4",
+		"displayText": "snippet4",
 		"snippet": "You don't need filler text for your prompts. Start typing: $1 (notice where the cursor is).",
 		"description": "Final snippet."
+	},
+	{
+		"displayText":"data",
+		"snippet":"data:\n\tUsername:${1:text here}\n\tPassword:${2:text here}",
+		 "description":"data."
+	},
+	{
+		"displayText":"feature",
+		"snippet":"feature:\n\tid:${1:text here}\n\tname:${2:text here}\n\tdescription:${3:text here}",
+		"description":"feature"
+	},
+	{
+		"displayText":"open",
+		"snippet":"open:${1:file path here}",
+		"description":"open"
+	},
+	{
+		"displayText":"screen_width",
+		"snippet":"screen_width:${1:value here}",
+		"description":"screen width"
+	},
+	{
+		"displayText":"screen_height",
+		"snippet":"screen_height:${1:value here}",
+		"description":"screen height"
+	},
+	{
+		"displayText":"events",
+		"snippet":"events:\n\tclick:${1:key name or function}",
+		"description":"event"
+	},
+	{
+		"displayText":"select",
+		"snippet":"select:\n\tselect_id:${1:text here}",
+		"description":"select"
+	},
+	{
+		"displayText":"navigate_to",
+		"snippet":"navigate_to:${1:path here}",
+		"description":"navigate_to"
+	},
+	{
+		"displayText":"go_back",
+		"snippet":"go_back:${1:path/function}",
+		"description":"go_back"
+	},
+	{
+		"displayText":"go_forward",
+		"snippet":"go_forward:${1:path/function}",
+		"description":"go_forward"
+	},
+	{
+		"displayText":"has_text",
+		"snippet":"has_text:${1:value}",
+		"description":"has_text"
+	},
+	{
+		"displayText":"top",
+		"snippet":"top:${1:value}",
+		"description":"value"
+	},
+	{
+		"displayText":"check",
+		"snippet":"check:${1:value}",
+		"description":"value"
+	},
+	{
+		"displayText":"compare_text",
+		"snippet":"compare_text:${1:value}",
+		"description":"compare_text"
+	},
+	{
+		"displayText":"insert",
+		"snippet":"insert:\n\tsome_text:${1:text Here}",
+		"description":"insert"
+	},
+	{
+		"displayText":"wait",
+		"snippet":"wait:${1:value}",
+		"description":"wait"
 	}
 ]
