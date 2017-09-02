@@ -1,16 +1,9 @@
 {
-  "name": "Yaml autocomplete",
+  "name": "yamlprovider",
   "main": "./lib/main",
   "version": "0.0.1",
-  "description": "Boilerplate package for creating your own custom autocomplete provider for Atom.",
-  "keywords": [
-    "autocomplete",
-    "provider",
-    "boilerplate"
-  ],
-  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
-  "author": "Will Boyd <will@codersblock.com> (http://codersblock.com)",
-  "license": "MIT",
+  "repository":"",
+  "author": "",
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
   },
