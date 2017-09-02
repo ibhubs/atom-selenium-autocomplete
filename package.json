@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.0.1",
   "repository":"",
-  "author": "",
+  "author": "iBHubs",
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
   },
