@@ -1,5 +1,5 @@
 {
-  "name": "yamlprovider",
+  "name": "atom-selenium-autocomplete",
   "main": "./lib/main",
   "version": "0.0.1",
   "repository":"",
