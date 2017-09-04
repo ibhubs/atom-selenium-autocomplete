@@ -46,12 +46,12 @@
 	},
 	{
 		"displayText":"events",
-		"snippet":"events:\n\tclick:${1:key name or function}",
+		"snippet":"events:\n\t-click:${1:Button here please}",
 		"description":"event"
 	},
 	{
 		"displayText":"select",
-		"snippet":"select:\n\tselect_id:${1:text here}",
+		"snippet":"select:\n\tselect_id:${1:visible text here}",
 		"description":"select"
 	},
 	{
@@ -61,17 +61,17 @@
 	},
 	{
 		"displayText":"go_back",
-		"snippet":"go_back:${1:path/function}",
+		"snippet":"go_back:${1}",
 		"description":"go_back"
 	},
 	{
 		"displayText":"go_forward",
-		"snippet":"go_forward:${1:path/function}",
+		"snippet":"go_forward:${1}",
 		"description":"go_forward"
 	},
 	{
 		"displayText":"has_text",
-		"snippet":"has_text:${1:value}",
+		"snippet":"has_text:\n\t-element_id:${1:value}",
 		"description":"has_text"
 	},
 	{
@@ -86,7 +86,7 @@
 	},
 	{
 		"displayText":"compare_text",
-		"snippet":"compare_text:${1:value}",
+		"snippet":"compare_text\n\t-element_id:${1:value}",
 		"description":"compare_text"
 	},
 	{
